@@ -12,13 +12,6 @@ body
 
     /*background-image: href=<img src="./assets/images/dp.jpg"> */
 
-img {
-    display:block;
-    background-size: cover;
-    height: 100vh;
-    
-}
-
 header {
     width: 100%;
     border: 3px;
