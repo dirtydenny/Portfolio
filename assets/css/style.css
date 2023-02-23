@@ -26,8 +26,8 @@ body {
   flex: 1 0 200px;
   padding: 10px;
   text-align: center;
-  border-style: solid;
-  border-width: 1px;
+  border-style:ridge;
+  border-width: 5px;
 }
 
 .card header {
@@ -52,16 +52,19 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 0px;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #281010;
+    text-decoration: wavy;
+    font-size: 20;
+    font-weight: 900;
+
 }
 
 p {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 
