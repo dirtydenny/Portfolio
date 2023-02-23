@@ -12,29 +12,50 @@ body
 
     /*background-image: href=<img src="./assets/images/dp.jpg"> */
 
-header {
-    width: 100%;
-    border: 3px;
-    padding: 50px;
-    display: flex;
-    align-items: center;
-    background-image: img src="./assets/images/dp.jpg";
-    background-size: cover;
+header,
+footer {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: slategrey;
+    color:floralwhite;
+
     
+/*  header h1 {
+    display: inline-block;
+    font-size: 48px;
+} 
+header h1 .seo {
+    color: #d9dcd6;
+} */
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
-       
 
-
-
-
-h1,
-h2 {
-    text-align: center;
-    color: navy;
-    background-color: silver;
-
-
+header nav ul {
+    list-style-type: none;
 }
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+
 
 /* header {
     width: 100%;
